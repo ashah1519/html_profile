@@ -1,0 +1,116 @@
+.hero-section{
+    height:200px;
+    overflow:hidden;
+  }
+  
+  body{
+    font-family: 'Redressed', 'Arial', sans-serif;
+  }
+  
+  .hero-image{
+    width:100%;
+  }
+  
+  #profile-photo{
+    border-radius: 80px;
+    height: 160px;
+    margin-left:50px;
+    margin-top:-90px;
+    border: 1px solid grey;
+    
+  }
+  
+  .photo-profile-details{
+    display:flex;
+    gap:15px;
+    justify-content: center;
+  }
+  
+  .name-section .name{
+    font-size: 20px;
+  }
+  
+  .mid-section{
+    display: flex;
+    justify-content:center;
+    gap:10px
+  }
+  
+  .tabs-link-list{
+    list-style-type: none;
+    width: 100%;
+    padding:0
+  }
+  
+  .tabs-link-list a{
+    text-decoration: none;
+    color: #84a59d
+  }
+  
+  .tabs-link-list li{
+    border: 1px solid #84a59d;
+    padding:10px
+  }
+  
+  .tabs-link-list li.selected{
+    background-color: #f28482
+  }
+  
+  .tabs-link-list li.selected a {
+    color: black; 
+  }
+  
+  .main-section, .name-section{
+    width:500px;
+  }
+  
+  .main-section dt{
+    font-weight: bold;
+  }
+  
+  .about-me-row{
+    display:flex;
+  }
+  
+.hobbies-section,.favorites{
+    border-top: 2px solid maroon;
+}
+
+.favorites ul{
+    text-align: center;
+    display:flex;
+    gap:10px;
+}
+
+.movie-list-item{
+    list-style-type: none;
+}
+.movie-poster{
+    height: 300px;
+    width: 200px;
+}
+.movie-name{
+    text-align: center;
+}
+
+.book-list-item{
+    list-style-type: none;
+}
+.book-poster{
+    height: 300px;
+    width: 200px;
+}
+.book-name{
+    text-align: center;
+}
+
+.tvshow-list-item{
+    list-style-type: none;
+}
+.tvshow-poster{
+    height: 300px;
+    width: 200px;
+}
+.tvshow-name{
+    text-align: center;
+}
